@@ -1,0 +1,453 @@
+/* common css start */
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul,
+ol {
+	list-style: none;
+}
+img,
+svg {
+	vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
+.body {
+	font-family: "Open Sans", sans-serif;
+}
+/* li a {
+	color: var(--secondary_color);
+	transition: all 0.3s ease;
+} */
+
+/* common css end */
+
+/* font css start */
+.font1218 {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+}
+.font1440 {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 40px;
+}
+.font1522 {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+}
+.font1624 {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+}
+.font2030 {
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 30px;
+}
+.font2229 {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 29px;
+}
+.font2436 {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 36px;
+}
+.font4060 {
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 60px;
+}
+.nunito2638 {
+	font-family: "Nunito", sans-serif;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 38px;
+}
+.nunito2429 {
+	font-family: "Nunito", sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+}
+.nunito2834 {
+	font-family: "Nunito", sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 34px;
+}
+.nunito3238 {
+	font-family: "Nunito", sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+}
+.nunito4048 {
+	font-family: "Nunito", sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 48px;
+}
+/* font css end */
+
+/* header css start */
+#top_bar {
+	background-color: #004080;
+}
+#header {
+	background-color: #9187f8;
+}
+.header_top ul {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header_top ul li {
+	display: inline-block;
+	border-left: 1px solid #004c99;
+	transition: all 0.3s ease;
+	position: relative;
+	z-index: 0;
+}
+.header_top li a {
+	color: #fff;
+	position: relative;
+	white-space: nowrap;
+	padding: 0 26px;
+	display: block;
+}
+
+#header nav.main_menu .nav li {
+	border: 1px solid #f0f0f0;
+}
+#header .sticky-top .has_dropdown > .nav-link {
+	padding: 0.5rem 0.4rem !important;
+}
+#header .main_menu {
+	margin-top: 1.5rem;
+}
+/* header css end */
+
+/* navbar css start */
+.navbar {
+	background-color: #9187f8 !important;
+}
+.navbar-nav > li {
+	margin: 0 10px;
+	padding: 0 15px;
+	background-color: #9c9efe;
+	border-radius: 5px;
+}
+.navbar-nav > li > a {
+	color: #fff !important;
+}
+.menu-icon {
+	margin-right: 15px;
+}
+.VPS > ul > li,
+.dedicated > ul > li {
+	float: left !important;
+	padding: 5px 0;
+	width: 33%;
+	width: calc(100% / 3);
+}
+.cloud > ul > li {
+	width: auto !important;
+}
+.collapse ul > li > ul {
+	width: max-content;
+	transform: translatex(-36%) scaleY(1);
+}
+.dedicated > ul {
+	width: max-content;
+	transform: translatex(-45%) scaleY(1) !important;
+}
+.dropdown-menu[data-bs-popper] {
+	margin-top: 0.45rem !important;
+}
+.menu-detail {
+	color: #8392a5;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 40ch;
+	display: block;
+}
+/* navbar css end */
+
+/* banner css start */
+#banner .banner_item {
+	height: 450px;
+	/* display: flex; */
+	align-items: center;
+	background: #29bcf2;
+	background: linear-gradient(to bottom, #29bcf2 0%, #ffffff 100%);
+}
+.banner_dots {
+	position: absolute;
+	text-align: center;
+	bottom: 30px;
+	width: 100%;
+}
+.banner_dots li {
+	display: inline-block;
+	padding: 0 5px;
+}
+.banner_dots li button {
+	position: relative;
+	height: 15px;
+	width: 15px;
+	background-color: transparent;
+	border: 1px solid;
+	overflow: hidden;
+	font-size: 10px;
+	/* color: transparent; */
+}
+.banner_dots li button::after {
+	position: absolute;
+	content: "";
+	height: 5px;
+	width: 5px;
+	top: 4px;
+	left: 4px;
+	opacity: 0;
+}
+.banner_dots .slick-active button::after {
+	opacity: 1;
+}
+/* banner css end */
+
+/* register css start */
+#register {
+	background: #1480c9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.domian_input_fileds {
+	background-color: #ffffff;
+	border-radius: 50px;
+	padding: 10px;
+}
+.domian_input_fileds input {
+	border: none;
+	width: 200px;
+}
+.domian_input_fileds button {
+	outline: none;
+	border: none;
+	color: #ffffff;
+	background: darkorange;
+	padding: 5px 20px;
+	border-radius: 50px;
+}
+/* register css end */
+
+/* footer css start */
+.payment_options img {
+	margin: 0.2rem;
+}
+footer {
+	background-color: #151515;
+	/* color: #d3d3d3; */
+}
+footer p,
+b {
+	color: #d3d3d3;
+}
+footer .copyright {
+	background-color: #000;
+}
+/* footer css end */
+
+/* vps css start */
+.title_decor {
+	position: relative;
+	margin-bottom: 2rem;
+}
+.intro_title,
+.section_title {
+	text-align: center;
+	margin-top: 20px;
+	/* margin-bottom: 20px; */
+}
+.theme_secondary_color {
+	color: darkorange;
+}
+.title_decor::after {
+	position: absolute;
+	content: "";
+	width: 40%;
+	height: 15px;
+	bottom: -20px;
+	left: 50%;
+	transform: translate(-50%);
+	background-image: url(/images/vps/download.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.bg_bubble {
+	background: url(/images/vps/bg-bubble.png) no-repeat bottom/cover;
+}
+.price_bg {
+	background-color: rgb(75 123 236 / 8%);
+	background-image: url("/images/vps/floating_cogs.svg");
+}
+.pricing-card {
+	/* transition: 0.4s background-color ease; */
+	padding-bottom: 20px;
+	background-color: var(--white);
+	border-radius: 20px;
+	position: relative;
+	transition: all 0.4s;
+	border: 1px solid #4b7bec;
+}
+.pricing-card .pricing-header {
+	width: 100%;
+	height: 150px;
+	position: relative;
+	border-radius: 20px 20px 0 0;
+}
+.pro .pricing-header {
+	background-color: #4b7bec;
+}
+.pricing-card .pricing-header .plan-title {
+	font-size: 24px;
+	color: #fff;
+	position: relative;
+	top: 25%;
+}
+.pricing-card .pricing-header .price-circle {
+	/* width: calc(33.3% - 30px); */
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	left: calc(50% - 75px);
+	top: 50%;
+	background-color: #fff;
+	position: absolute;
+}
+.pro .price-circle {
+	border: 10px solid #4b7bec;
+	transition: all 0.4s;
+}
+.pricing-card .pricing-header .price-circle .price-title {
+	display: block;
+	font-size: 28px;
+	padding: 35px 0 0;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.2;
+}
+.bd_price {
+	font-size: 1.5rem;
+}
+.us_price {
+	color: #4b7bec;
+	font-size: 1.2rem;
+}
+.pricing-card .badge-box {
+	padding: 0 40px;
+	margin-top: 90px;
+}
+.pricing-card .badge-box span {
+	display: inline-block;
+	border: 1px solid #4b7bec;
+	padding: 4px 12px;
+	border-radius: 25px;
+	overflow: hidden;
+	color: #4b7bec;
+}
+.pricing-card ul {
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+.pricing-card ul li {
+	list-style-type: none;
+	display: block;
+	padding: 10px 15px;
+	margin: 0;
+	border-bottom: 1px #fff;
+}
+.pricing-card .popular {
+	position: absolute;
+	top: 0;
+	right: 5%;
+	width: auto;
+	padding: 10px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-color: darkorange;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	z-index: 1;
+	box-shadow: 0 4px 8px 0 #00000033;
+}
+.anim_fill_btn,
+.anim_ouline_btn,
+.anim_outline_secondary_btn {
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	vertical-align: middle;
+	transform: perspective(1px) translateZ(0);
+	position: relative;
+	overflow: hidden;
+	transition-property: color;
+	transition-duration: 0.3s;
+}
+.btn_secondary_outline {
+	color: darkorange;
+	background-color: transparent;
+	border: 1px solid darkorange;
+}
+.anim_fill_btn::before,
+.anim_ouline_btn::before,
+.anim_outline_secondary_btn::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	/* background-color: var(--white); */
+	top: -100%;
+	left: 0;
+	transition: all 0.3s ease;
+	z-index: -1;
+}
+.bg_deep_deep {
+	background: hsl(210deg 84% 85%);
+}
+p a {
+	color: darkorange;
+	transition: all 0.3s ease;
+}
+.bg_deep {
+	background: hsl(211 100% 46% / 0.1);
+}
+p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+/* vps css end */
