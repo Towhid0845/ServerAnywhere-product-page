@@ -37,6 +37,7 @@ function VPS_Page() {
 						</div>
 					</div>
 				</div>
+
 				<div>
 					<section class="bg_bubble">
 						<div class="py-5">
@@ -696,6 +697,7 @@ function VPS_Page() {
 						</div>
 					</section>
 				</div>
+				<section id="last"></section>
 				<div>
 					<section class="bg_bubble">
 						<div class="py-5">
@@ -1214,6 +1216,7 @@ function VPS_Page() {
 						</div>
 					</section>
 				</div>
+
 				<div>
 					<section class="bg_deep">
 						<div class="py-5">

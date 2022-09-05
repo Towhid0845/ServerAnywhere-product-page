@@ -1,3 +1,8 @@
+// import * as React from "react";
+// import Button from "@mui/material/Button";
+// import Menu from "@mui/material/Menu";
+// import MenuItem from "@mui/material/MenuItem";
+
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -24,7 +29,10 @@ function Navbar() {
 				>
 					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div className="collapse navbar-collapse" id="navbarSupportedContent">
+				<div
+					className="collapse navbar-collapse main_menu"
+					id="navbarSupportedContent"
+				>
 					<ul className="navbar-nav mx-auto mb-2 mb-lg-0">
 						<li className="nav-item">
 							{/* <a className="nav-link active" aria-current="page" href="#">
@@ -35,24 +43,24 @@ function Navbar() {
 							</Link>
 						</li>
 						<li className="nav-item dropdown VPS">
-							<Link
+							<Link to="/vps">VPS</Link>
+							{/* <Link
 								to="/vps"
 								className="nav-link dropdown-toggle"
-								href=""
 								id="navbarDropdown"
 								role="button"
 								data-bs-toggle="dropdown"
 								aria-expanded="false"
 							>
 								VPS
-							</Link>
-							{/* <link to="/vps">VPS-ONE</link> */}
-							<ul
+							</Link> */}
+							{/* <ul
 								className="dropdown-menu container"
 								aria-labelledby="navbarDropdown"
-							>
+							> */}
+							<ul>
 								<li className="nav-item">
-									<a className="dropdown-item" href="">
+									<a className="dropdown-item" href="#last">
 										<div className="d-flex align-items-center">
 											<div className="menu-icon">
 												<i class="fa-solid fa-computer"></i>
@@ -253,7 +261,8 @@ function Navbar() {
 							</ul>
 						</li>
 						<li className="nav-item dropdown dedicated">
-							<Link
+							<Link to="/dedicated">Dedicated</Link>
+							{/* <Link
 								to="/dedicated"
 								className="nav-link dropdown-toggle"
 								href="#"
@@ -263,11 +272,12 @@ function Navbar() {
 								aria-expanded="false"
 							>
 								Dedicated Server
-							</Link>
-							<ul
+							</Link> */}
+							{/* <ul
 								className="dropdown-menu container"
 								aria-labelledby="navbarDropdown"
-							>
+							> */}
+							<ul>
 								<li className="nav-item">
 									<a className="dropdown-item" href="#">
 										<div className="d-flex align-items-center">
@@ -403,7 +413,8 @@ function Navbar() {
 							</ul>
 						</li>
 						<li className="nav-item dropdown cloud">
-							<Link
+							<Link to="/cloud">Cloud</Link>
+							{/* <Link
 								to="/cloud"
 								className="nav-link dropdown-toggle"
 								href="#"
@@ -413,8 +424,9 @@ function Navbar() {
 								aria-expanded="false"
 							>
 								Cloud
-							</Link>
-							<ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+							</Link> */}
+							{/* <ul className="dropdown-menu" aria-labelledby="navbarDropdown"> */}
+							<ul>
 								<li className="nav-item">
 									<a className="dropdown-item" href="#">
 										<div className="d-flex align-items-center">
