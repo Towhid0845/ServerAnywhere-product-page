@@ -1,10 +1,7 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React, { useEffect, useState } from "react";
 import "./admin.css";
 import Create from "./create/create";
 import Read from "./read/read";
-import Update from "./update/update";
-import Delete from "./delete/delete";
 import Header from "../../home/header";
 import { Dropdown } from "semantic-ui-react";
 

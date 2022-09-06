@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function Read() {
 	const [apiData, setApiData] = useState([]);
+
 	useEffect(() => {
 		axios
 			.get(`https://6313b715a8d3f673ffcf5d61.mockapi.io/CRUD`)
@@ -12,6 +13,7 @@ export default function Read() {
 				setApiData(getData.data);
 			});
 	}, []);
+	console.log(apiData);
 	const setData = (id, Catagory, CPU, RAM, OS, Storage, Price) => {
 		// console.log(id);
 		localStorage.setItem("ID", id);
